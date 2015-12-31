@@ -1,0 +1,181 @@
+/*applying natural box model*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+ header { 
+     /* other color ideas: background: #cb654f;  /*        /*rgb(255,255,240) ivory*/
+    background: rgb(255, 255, 255, 0);
+    text-align: center;
+    padding: 150px 0;
+    background-position: 50%;
+    background-size: 100%;
+    
+    
+ } 
+
+
+ body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    line-height: 1.5;
+    background: url(../images/trains.jpeg) no-repeat fixed;
+    background-position: 50%;
+    background-size: 100%;
+    
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    margin: 0;
+}
+
+h2, h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+header h2{
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  border-bottom: none;
+  color: #cb654f;
+  font-weight: bold;
+}
+h1 {
+    font-family: 'Lobster', cursive;;
+    font-size: 80px;
+    color: #cb654f;
+}
+
+h2 {
+  border-bottom: 2px solid black;
+    font-size: 32px;
+}
+
+.content-wrap {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+ .profile { 
+     background: linear-gradient(rgba(211, 177, 167, 0.4), rgba(211, 177, 167, 1));
+    
+    /*background:  #d3b1a7;*/
+    }
+ 
+ 
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+
+.clearfix:after {
+  clear: both;
+}
+
+ .profile img {
+    float: left;
+    width: 27%;
+    margin-right: 3%;
+    border-radius: 50%;
+    margin-bottom: 3%;
+    border: 1px solid #8cbea3;
+    padding: 4px;
+    size: auto;
+ }
+
+.summary{
+    float: right;
+    width: 70%;
+ }
+
+ .profile h2 {
+    border: none;
+    background: #8cbea3;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ /*
+ .work-experience { 
+
+ }  */
+ 
+ .skills { 
+    background: #cfcb9c;
+ }  
+
+.skills-circles ul li{
+  display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 2px solid #8cbea3;
+    border-radius: 50%;
+    line-height: 150px;
+    text-align: center;
+}
+
+.skills-circles span {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+ .education { 
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.3)), url(../images/map.jpeg) no-repeat fixed;
+    background-position: 100%;
+    background-size: 100%;
+
+
+
+    /*background: #8cbea3;*/
+ }  
+
+ .details {
+   float: left;
+   width: 27%;
+    margin-right: 3%;
+ }
+
+ .description {
+  float: right;
+  width: 70%;
+  margin-top: -20px;
+ }
+
+ .item {
+    border-bottom: 2px dashed #8cbea3;
+}
+
+.item:last-child {
+  border-bottom: none;
+
+}
+
+ .contact {
+    background: #dfba47;
+  }
+
+  a {
+    color: #cb654f; 
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+  }
+
+  a:hover {
+    transition: all 0.5s ease;
+    color: #8cbea3;
+}
